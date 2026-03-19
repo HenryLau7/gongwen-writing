@@ -18,19 +18,8 @@
 
 ## 安装
 
-### 方法一：通过 Claude Code 添加
-
 ```bash
-claude /skills add /path/to/gongwen-writing
-```
-
-### 方法二：手动安装
-
-将 `SKILL.md` 复制到你的 Claude Code skills 目录：
-
-```bash
-# 个人 skill 目录
-cp SKILL.md ~/.claude/skills/gongwen-writing/SKILL.md
+npx skills add henrylau7/gongwen-writing
 ```
 
 ## 使用示例
